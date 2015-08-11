@@ -71,3 +71,14 @@ let g:CSSLint_FileTypeList = ['css', 'less', 'sess']
 
 "SCSSlint
 let g:syntastic_scss_checkers = ['scss_lint']
+
+"Highliting Front Matter for Jekyll
+let g:vim_markdown_frontmatter=1
+
+"Changin tabs so that they are normal
+:set tabstop=4
+:set shiftwidth=4
+:set expandtab
+
+"Fuzzy Search
+set runtimepath^=~/.vim/bundle/ctrlp.vim
